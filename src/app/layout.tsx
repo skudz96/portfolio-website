@@ -20,7 +20,7 @@ export default function RootLayout({
     <html lang="en" className="h-full">
       <body className={`${inter.className} flex flex-col min-h-full`}>
         <div className="flex flex-col min-h-screen">
-          <header className="bg-gray-800 text-white p-4">
+          <header className=" text-black p-4">
             <nav className="container mx-auto flex justify-between items-center">
               <Link href="/" className="text-xl font-bold">
                 Sergio Huleani
@@ -50,7 +50,7 @@ export default function RootLayout({
             </nav>
           </header>
           <main className="flex-grow">{children}</main>
-          <footer className="bg-gray-800 text-white p-4">
+          <footer className=" text-black p-4">
             <div className="container mx-auto text-center">
               © {new Date().getFullYear()} Your Name. All rights reserved.
             </div>
