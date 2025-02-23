@@ -3,7 +3,7 @@ export default function AboutMe() {
     <section className="py-20 bg-highlight">
       <div className="container mx-auto px-6">
         <h2 className="text-4xl font-bold mb-8 text-center">About Me</h2>
-        <p className="text-lg text-text max-w-3xl mx-auto">
+        <p className="text-lg max-w-3xl mx-auto">
           Hi, I&apos;m Sergio. I&apos;m a former academic researcher now
           transitioning into tech. I discovered coding through automating
           experimental results with R scripts and quickly fell in love with its
