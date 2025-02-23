@@ -1,12 +1,19 @@
-/* eslint-disable react/no-unescaped-entities */
+import Header from "./Components/Header";
+import TitleScreen from "./Components/TitleScreen";
+import AboutMe from "./Components/AboutMe";
+import Projects from "./Components/Projects";
+import Skills from "./Components/Skills";
+import Contact from "./Components/Contact";
+
 export default function Home() {
   return (
-    // HERO SECTION
-    <div className="container mx-auto px-4 ">
-      <div className="flex flex-col items-center justify-center h-screen ">
-        <h1 className="text-6xl font-bold">Sergio Huleani</h1>
-        <h2 className="text-2xl mt-4">Full Stack Developer</h2>
-      </div>
-    </div>
+    <main className="min-h-screen">
+      <Header />
+      <TitleScreen />
+      <AboutMe />
+      <Projects />
+      <Skills />
+      <Contact />
+    </main>
   );
 }
