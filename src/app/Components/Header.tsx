@@ -6,6 +6,9 @@ export default function Header() {
       <nav className="container mx-auto px-6 py-4">
         <ul className="flex flex-row justify-center items-center space-x-16">
           <li>
+            <h2 className="font-bold">Under Construction!</h2>
+          </li>
+          <li>
             <Link href="#home">Home</Link>
           </li>
           <li>
